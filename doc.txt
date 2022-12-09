@@ -1,0 +1,6 @@
+install editorc no exp
+
+install npx eslint --init
+
+npm install nodemon
+ ||   ||    sucrasez
