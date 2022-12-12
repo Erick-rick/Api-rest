@@ -3,4 +3,11 @@ install editorc no exp
 install npx eslint --init
 
 npm install nodemon
- ||   ||    sucrasez
+ ||   ||    sucrase
+
+npm i Sequelize mysql
+npm i -d Sequelize-cli
+
+
+//Sequelize
+criar table no BD >> npx Sequelize migration: create --name=alunos
