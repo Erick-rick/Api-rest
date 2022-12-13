@@ -14,6 +14,7 @@ class App {
 
   middlawares() {
     this.app.use(express.urlencoded({ extended: true }));
+    this.app(express.json);
   }
 
   routes() {
