@@ -13,10 +13,10 @@ module.exports = {
     underscoredAll: true,
     createdAt: 'created_at',
     updatedAt: 'updated_at',
+    timezone: '-03:00',
+    dialectOptions: {
+      useUTC: false,
+    },
   },
-  dialectOptions: {
-    timezone: 'America/Sao_Paulo',
-  },
-  timezone: 'America/Sao_Paulo',
 
 };
