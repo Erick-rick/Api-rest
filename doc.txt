@@ -11,3 +11,6 @@ npm i -d Sequelize-cli
 
 //Sequelize
 criar table no BD >> npx Sequelize migration: create --name=alunos
+
+//Criar sessões de token p/ o usuário 
+npm i jsonwebtoken
